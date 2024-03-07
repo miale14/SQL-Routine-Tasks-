@@ -7,6 +7,9 @@ To create a new user in MySQL, you use the `CREATE USER` statement followed by t
 CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'password';
 ```
 
+Show all user `SELECT user, host FROM mysql.user;
+`
+
 ### Granting Privileges:
 After creating the user, you can grant specific privileges to them using the `GRANT` statement. Here's how you can grant privileges to the user on a specific database:
 
